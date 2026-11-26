@@ -1,0 +1,119 @@
+:root {
+  --ai: #25334a;
+  --kinari: #f5ebd7;
+  --kinari-dark: #e9dcc0;
+  --shu: #c85b4b;
+  --yamabuki: #e6bc65;
+  --outline: #5a3a2e;
+  --font: "Hiragino Maru Gothic ProN", "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--kinari);
+  color: var(--ai);
+  font-family: var(--font);
+  line-height: 1.8;
+}
+a {
+  color: var(--shu);
+}
+header {
+  background: var(--ai);
+  color: var(--kinari);
+}
+header .inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+}
+header img {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+}
+header a {
+  color: var(--kinari);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+}
+.inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+main.inner {
+  padding: 24px 20px 48px;
+}
+h1 {
+  font-size: 26px;
+  line-height: 1.4;
+  margin: 8px 0 16px;
+}
+h2 {
+  font-size: 19px;
+  margin: 32px 0 8px;
+  padding-left: 10px;
+  border-left: 5px solid var(--shu);
+}
+.hero {
+  text-align: center;
+  padding: 16px 0 8px;
+}
+.hero img.icon {
+  width: 140px;
+  height: 140px;
+  border-radius: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+.hero p {
+  font-size: 17px;
+}
+.shots {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 8px 0 16px;
+}
+.shots img {
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 3px solid var(--outline);
+}
+.box {
+  background: #fffaf0;
+  border: 2px solid var(--kinari-dark);
+  border-radius: 14px;
+  padding: 12px 18px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 24px 0;
+}
+.links a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid var(--outline);
+  border-radius: 999px;
+  background: #fffaf0;
+  color: var(--ai);
+  font-weight: 800;
+  text-decoration: none;
+}
+.date {
+  color: #6b7280;
+  font-size: 14px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding: 24px 0 40px;
+  color: #6b7280;
+}

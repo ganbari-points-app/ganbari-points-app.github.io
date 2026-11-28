@@ -1,0 +1,114 @@
+:root {
+  --green: #2f8a2a;
+  --green-dark: #1f5e1c;
+  --gold: #f0c64f;
+  --brown: #7a4a10;
+  --cream: #fff8e1;
+  --font: "Hiragino Maru Gothic ProN", "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--cream);
+  color: #3a2a10;
+  font-family: var(--font);
+  line-height: 1.8;
+}
+a {
+  color: var(--green);
+}
+header {
+  background: var(--green);
+  border-bottom: 4px solid var(--gold);
+}
+header .inner {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+  text-shadow: 0 2px 0 var(--green-dark);
+}
+.inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+main.inner {
+  padding: 24px 20px 48px;
+}
+h1 {
+  font-size: 26px;
+  line-height: 1.4;
+  margin: 8px 0 16px;
+}
+h2 {
+  font-size: 19px;
+  margin: 32px 0 8px;
+  padding-left: 10px;
+  border-left: 5px solid var(--gold);
+}
+.hero {
+  text-align: center;
+  padding: 8px 0;
+}
+/* ロゴは縦横比を保ったまま縮小だけする */
+.hero img.logo {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+}
+.hero p {
+  font-size: 17px;
+}
+.shots {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 8px 0 16px;
+}
+.shots img {
+  width: 200px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 3px solid var(--gold);
+}
+.box {
+  background: #fff;
+  border: 2px solid var(--gold);
+  border-radius: 14px;
+  padding: 12px 18px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 24px 0;
+}
+.links a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid var(--brown);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--brown);
+  font-weight: 800;
+  text-decoration: none;
+}
+.date {
+  color: #6b7280;
+  font-size: 14px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding: 24px 0 40px;
+  color: #6b7280;
+}

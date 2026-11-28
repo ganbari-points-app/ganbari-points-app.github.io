@@ -120,7 +120,6 @@ footer {
 }
 /* 連絡先は目立たせない */
 .contact {
-  font-size: 13px;
   color: #9a917f;
   margin: 4px 0 0;
 }

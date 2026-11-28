@@ -23,7 +23,13 @@ header {
   background: var(--green);
   border-bottom: 4px solid var(--gold);
 }
+header img {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+}
 header .inner {
+  gap: 12px;
   display: flex;
   align-items: center;
   padding: 12px 20px;
